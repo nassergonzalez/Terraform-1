@@ -1,14 +1,6 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">= 3.0, < 4.0"  # Terraform 0.12 works best with AWS Provider v3.x
-    }
-  }
-}
-
 provider "aws" {
   region  = "us-east-1"
+  version = "~> 3.0"  # This is the correct syntax for Terraform 0.12
 }
 
 # data "aws_ami" "app_server" {
