@@ -1,5 +1,5 @@
 provider "aws" {
-  region  = "us-east-1"
+  region  = "us-east-2"
   version = "~> 3.0"  # This is the correct syntax for Terraform 0.12
 }
 
