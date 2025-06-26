@@ -1,17 +1,8 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.16"
-    }
-  }
-
-  required_version = ">= 1.2.0"
-}
-
 provider "aws" {
   region  = "us-west-2"
+  version = "~> 3.0"  # This is the correct syntax for Terraform 0.12
 }
+
 
 data "aws_ami" "app_server" {
   filter {
