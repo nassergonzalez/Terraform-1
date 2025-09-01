@@ -1,4 +1,4 @@
-# Complete SQS Queue Example
+# Complete SQS Queue Example For testing
 
 Configuration in this directory creates:
 - Queue using module default settings
