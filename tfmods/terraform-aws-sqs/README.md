@@ -1,4 +1,4 @@
-# AWS SQS Terraform module
+# AWS SQS Terraform module test
 
 Terraform module which creates SQS resources on AWS.
 
